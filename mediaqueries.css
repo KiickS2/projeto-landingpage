@@ -9,6 +9,8 @@
         grid-template-columns: 2fr 1fr;
 
         width: 1440px;
+
+        margin-top: 50px;
     
         background-color: hsl(257, 40%, 49%);
         background-image: url(images/bg-desktop.svg);
