@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(fonts/Poppins-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'PoppinsBold';
+    src: url(fonts/Poppins-SemiBold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url(fonts/OpenSans-Light.ttf) format('truetype');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'OpenSans';
+    color: white;
+}
+
+h2 {
+    margin-top: 20px;
+    font-family: 'PoppinsBold';
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    width: 375px;
+
+    background-color: hsl(257, 40%, 49%);
+}
+
+.header-area {
+    display: flex;
+    flex-direction: column;
+
+    background-image: url(images/bg-mobile.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+.logo-img {
+    width: 120px;
+
+    margin-left: 30px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.ilustration-img {
+    width: 320px;
+
+    align-self: center;
+}
+
+.content-area {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-area {
+    display: flex;
+
+    flex-direction: column;
+    padding: 35px;
+}
+
+.text-area h2 {
+    text-align: center;
+}
+
+.text-area p {
+    text-align: center;
+
+    line-height: 25px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.text-area .register-link {
+    display: inline-block;
+
+    align-self: center;
+
+    padding: 10px 65px;
+
+    background-color: white;
+    color: hsl(257, 40%, 49%);
+
+    text-decoration: none;
+
+    border-radius: 50px;
+
+    font-family: 'Poppins';
+}
+
+.register-link:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+
+    height: fit-content;
+}
+
+.social-link {
+    margin: 10px;
+}
+
+.social-link img {
+    width: 50px;
+
+    border-radius: 50%;
+}
+
+.social-link img:hover {
+    border: 3px solid white;
+}
+
+footer {
+    width: 375px;
+}
+
+.attribution { font-size: 11px; text-align: center; padding: 10px; background-color: #333333;}
+.attribution a { color: #a8f8dd; }

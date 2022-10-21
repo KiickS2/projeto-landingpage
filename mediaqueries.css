@@ -1,0 +1,99 @@
+@media screen and (min-width: 376px) {
+    body {
+        background-image: url(images/bg.jpg);
+        background-size: cover;
+    }
+
+    section {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+
+        width: 1440px;
+    
+        background-color: hsl(257, 40%, 49%);
+        background-image: url(images/bg-desktop.svg);
+        background-position: right;
+
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .header-area {
+        background-image: none;
+    }
+
+    .logo-img {
+        width: 200px;
+    
+        margin-left: 45px;
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
+
+    .ilustration-img {
+        width: 90%;
+    
+        margin: 80px 0px;
+    
+        align-self: center;
+    }
+
+    .content-area {
+        display: flex;
+        align-content: center;
+    }
+
+    .text-area {
+        justify-content: center;
+
+        width: 600px;
+        height: 100%;
+        padding: 0px;
+    }
+
+    .text-area h2 {
+        text-align: left;
+
+        font-size: 36px;
+    }
+    
+    .text-area p {
+        text-align: left;
+
+        margin-right: 50px;
+
+        font-size: 19px;
+    }
+
+    .text-area .register-link {
+        display: inline-block;
+    
+        align-self: flex-start;
+    
+        padding: 15px 65px;
+
+        margin-top: 10px;
+
+        font-size: 19px;
+    }
+
+    .social {
+        display: flex;
+        align-self: flex-end;
+    
+        height: fit-content;
+    
+        margin-bottom: 40px;
+        margin-top: 30px;
+        margin-right: 50px;
+    }
+
+    footer {
+        width: 1440px;
+
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .attribution {
+        padding: 20px;
+    }
+}
